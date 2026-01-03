@@ -1,11 +1,7 @@
 import pandas as pd
-import seaborn as sns
-import matplotlib as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-from sklearn.model_selection import KFold
-from sklearn.model_selection import cross_val_score
 
 train = pd.read_csv('train.csv')
 formula_train = pd.read_csv('formula_train.csv')
