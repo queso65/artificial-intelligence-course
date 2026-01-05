@@ -19,5 +19,4 @@ class SineNet(torch.nn.Module):
 
 sine_net = SineNet(int(input()))
 sine_net.forward(torch.Tensor([1.]))
-
 print(sine_net)

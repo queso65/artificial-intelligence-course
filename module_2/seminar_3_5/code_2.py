@@ -50,4 +50,5 @@ for epoch_index in range(2000):
 
 def metric(pred, target):
    return (pred - target).abs().mean()
+
 print(metric(net.forward(x_validation), y_validation).item())
